@@ -46,6 +46,10 @@ nav {
   padding: 1rem 1rem;
 }
 
+.menu-xs {
+  display: none;
+}
+
 /*Header*/
 .hero-header {
   background: url('../img/glasses-bg.png') no-repeat center center;
@@ -126,7 +130,108 @@ footer .logo {
   padding: 4rem;
 }
 
+@media only screen and (max-width: 1060px) {
+  .hero-header {
+    height: 22rem;
+  }
 
+  nav {
+    top: 0;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .banner {
+    margin-top: 5rem;
+  }
+
+  .banner h1 {
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .hero-header {
+    height: 17rem;
+  }
+
+  .banner-container {
+    display: block;
+  }
+
+  .banner {
+    margin-top: 9rem;
+  }
+
+  .banner h1 {
+    padding: 1rem auto;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .menu-xs {
+    display: inline-block;
+  }
+
+  .menu-lg {
+    display: none;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .feature-section {
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem auto;
+  }
+
+  .feature {
+    justify-content: space-between;
+    padding: 0.77rem 0;
+    height: 100%;
+  }
+
+  .feature img {
+    max-width: 5rem;
+    max-height: 5rem;
+    margin-bottom: 0.77rem;
+  }
+
+  .description-section {
+    flex-direction: column;
+  }
+
+  .description {
+    max-width: 100%;
+  }
+
+  .description-title {
+    max-width: 100%;
+    margin: 0 -2.5%;
+  }
+
+  .main p {
+    font-size: 0.77rem;
+  }
+
+  .description p {
+    margin-bottom: 4rem;
+  }
+
+  footer .logo img {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+}
 
 
 
