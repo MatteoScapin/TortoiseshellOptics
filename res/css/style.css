@@ -15,3 +15,49 @@ h1 {
   font-size: 2rem;
   line-height: 1.2;
 }
+
+/*Navbar*/
+nav {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+}
+
+.logo, .menu {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+.menu li {
+  padding: 1rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
