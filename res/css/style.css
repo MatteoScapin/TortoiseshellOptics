@@ -46,6 +46,36 @@ nav {
   padding: 1rem 1rem;
 }
 
+/*Header*/
+.hero-header {
+  background: url('../img/glasses-bg.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30rem;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner {
+  margin-top: 10rem;
+}
+
+.banner h1 {
+  background-color: #fff;
+  padding: 1.5rem 5rem;
+  margin-right: -2rem;
+}
+
+
+
+
+
+
 
 
 
