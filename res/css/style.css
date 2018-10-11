@@ -1,0 +1,17 @@
+/*General*/
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
